@@ -1,4 +1,4 @@
-import express, { Request, Response } from 'express'; // O erro de import sumirá com o novo tsconfig
+import express, { Request, Response } from 'express';
 import cors from 'cors';
 import { v4 as uuidv4 } from 'uuid';
 import dotenv from 'dotenv';
@@ -49,9 +49,8 @@ app.put('/products/:id', (req: Request, res: Response) => {
     return res.status(404).json({ error: 'Produto não encontrado' });
   }
 
-  // CORREÇÃO AQUI: Criamos o objeto explicitamente para garantir a tipagem correta
   const updatedProduct: Product = { 
-    id: id, // Mantemos o mesmo ID da URL
+    id: id,
     name: name, 
     price: Number(price) 
   };
