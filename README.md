@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/status-concluído-green)
 ![Linguagem](https://img.shields.io/badge/linguagem-TypeScript-blue.svg)
 ![Framework](https://img.shields.io/badge/framework-Express-black)
-[![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-blue)](./LICENSE)
+[![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-red)](./LICENSE)
 
 > Uma API RESTful desenvolvida em Node.js e TypeScript para gerenciar o cadastro de produtos de uma loja virtual. Este projeto serve os dados para a aplicação mobile.
 
